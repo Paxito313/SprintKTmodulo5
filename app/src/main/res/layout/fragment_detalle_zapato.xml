@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/amarillo">
+
+    <ImageView
+        android:id="@+id/imagenZapatoDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:layout_margin="8dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/descripcion_imagen" />
+
+    <TextView
+        android:id="@+id/nombreZapatoDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/precioZapatoDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FF4081"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/descripcionZapato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/botonAgregarCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar al Carrito"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
